@@ -45,14 +45,14 @@
     top: 0;
 }
 .my-categories{
-    width: 85%;
+    width: 100%;
 }
 .my-list{
     white-space: nowrap;
 }
 .my-container{
     margin: auto;
-    width:95%;
+    width:100%;
     overflow-x: auto;
 }
 .my-list>img{
