@@ -79,6 +79,7 @@
     color: rgb(31, 31, 31);
     font-weight: 600;
     font-size: 13px;
+    width: fit-content;
 }
 
 .my-card-weight{
@@ -93,17 +94,28 @@
     line-height: 11px;
 }
 
+.offer{
+    align-items: center;
+    display: flex;
+    left: 10%;
+    top: 0px;
+    position: absolute;
+    z-index: 10;
+}
+
+.offer-percentage{
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 9px;
+    text-align: center;
+    z-index: 20;
+    position: absolute;
+    margin-left: 5px;
+}
+
 .mrp{
     color: #666666;
     font-size: 12px;
-}
-.category-section{
-    width: 85%;
-    margin: auto;
-}
-.category-section-row{
-    width: 100%;
-    overflow-x: scroll;
 }
 .fa-heart{
     color: red;
@@ -116,4 +128,22 @@
     top: 85px;
     background-color: #f2f2f2;
     text-align: center;
+}
+.fa-indian-rupee-sign{
+    font-size: smaller;
+}
+
+.mrp{
+    color: #666666;
+    font-size: 12px;
+}
+.category-section{
+    margin: auto;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.category-section-row{
+    width: 100%;
+    overflow-x: auto;
+    padding: 10px;
 }
